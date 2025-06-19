@@ -12,7 +12,7 @@
 * then go to port `http://127.0.0.1:8000/timetable_generation/` to run the local server
 
 #### About the project:
-project uses genetic algorithm to satisfy the constraints related to Timetable scheduling. The program satisfies the following constraints:- 
+This project uses genetic algorithm to satisfy the constraints related to Timetable scheduling. The program satisfies the following constraints:- 
 
 | Hard Constraints                                  | Soft Constraints                                     |
 | --------------------------------------------------|:----------------------------------------------------:|
@@ -21,3 +21,12 @@ project uses genetic algorithm to satisfy the constraints related to Timetable s
 | Two classes dont have same room                   | Even distribution of course in a section per week    |
 | Class timing for each teacher is unique           |
 | Teachers are allocated to their course accordingly|
+
+#### Features:
+- Automatic generation of optimal timetables based on multiple constraints
+- Management of instructors, courses, rooms, and meeting times
+- User-friendly interface for inputting timetable requirements
+- Genetic algorithm implementation for optimization
+
+#### Developer:
+Created by Adroit Developer team &copy; 2023
